@@ -1,1 +1,2 @@
 # XMRig-Configurator
+ Test
