@@ -64,7 +64,13 @@ today = date.today()
 d = today.strftime("%d-%m-%Y")
 
 filename_linux = "logs/" + d + ".log"
-filename_win = "logs/" + d + ".log"
+filename_win = "\\logs\\" + d + ".log"
+
+if os == "L" or "l" or "F" or "f":
+    filename = filename_linux
+elif os == "W" or "w":
+    filename = filename_win
+
 
 if logging == True:
     command = command + "--log-file=" + filename + " "
