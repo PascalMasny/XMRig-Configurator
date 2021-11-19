@@ -5,6 +5,7 @@ from datetime import date
 #! Path var
 LINUX_PATH = "xmrig-6.15.3-Linux/"
 WINDOWS_PATH = "\\xmrig-6.15.3-Windwos"
+FREEBSD_PATH = "xmrig-6.15.3-FreeBSD/"
 
 
 #! Config
@@ -45,11 +46,25 @@ if gpu == True:
         command = command + "--opencl "
 
 
+#OS
+os = str(input("What OS are you running? \nWindows, Linux, FreeBSD \n(W / L / F) press Enter to continue, Ctrl + c to cancel\n"))
+
+if os == "W" or os == "w":
+    command = win_cmd + command
+elif os == "L" or os == "l":
+    command = linux_cmd + command
+elif os == "F" or os == "f":
+    command = linux_cmd + command
+else:
+    print("Error! Wrong Input \nOnly W or L are valid!")
+    exit()
+
 #Logging
 today = date.today()
 d = today.strftime("%d-%m-%Y")
 
-filename = "logs/" + d + ".log"
+filename_linux = "logs/" + d + ".log"
+filename_win = "logs/" + d + ".log"
 
 if logging == True:
     command = command + "--log-file=" + filename + " "
@@ -60,17 +75,6 @@ if hashrate_output == True:
     command = command + "--health-print-time=" + str(intervall_outputs) + " "
 
 
-#OS
-os = str(input("What OS are you running? \nWindows or Linux \n(W / L) press Enter to continue, Ctrl + c to cancel\n"))
-
-if os == "W" or os == "w":
-    command = win_cmd + command
-elif os == "L" or os == "l":
-    command = linux_cmd + command
-else:
-    print("Error! Wrong Input \nOnly W or L are valid!")
-    exit()
-
 #Pritn raw resulr
 print("\n \n" + command)
 
@@ -79,6 +83,8 @@ if os == "W" or os == "w":
     command_execute = "cd " + WINDOWS_PATH + " ; " + command
 elif os == "L" or os == "l":
     command_execute = "cd " + LINUX_PATH + " && " + command
+elif os == "F" or os == "f":
+    command_execute = "cd " + FREEBSD_PATH + " && " + command
 else:
     print("Fatal executuion Error!")
 
