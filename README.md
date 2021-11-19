@@ -4,6 +4,9 @@
 Monero mining configurator for all operating systems
 
 ## General Info
+Python3 version: ```Python 3.9.5``` or higher
+
+xmrig version: ```6.15.3```
 
 <br>
 
@@ -34,3 +37,18 @@ Monero mining configurator for all operating systems
 
 - [x] Nvidea
 - [x] AMD 
+
+## Special Thank's
+
+Special thanks to the guy's over at [xmrig](https://github.com/xmrig) for the super cool work on the XMR-Miner.
+
+Official website: [here](https://xmrig.com/) 
+
+Official configurator: [here](https://xmrig.com/wizard)
+
+## Other
+Pool I use: [here](https://moneroocean.stream/)
+
+NetworkChuck Video: [here](https://www.youtube.com/watch?v=hHtGN_JzoP8&t=1006s)
+
+Monero Wallet remote node: [here](https://minexmr.com/node)
