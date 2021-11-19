@@ -1,7 +1,7 @@
 # XMRig-Configurator
 <img src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/monero-FF6600?style=for-the-badge&logo=monero&logoColor=white" alt="Monero">
 
-Monero mining configurator for all operating systems
+Monero mining configurator and deployment system for all operating systems
 
 ## General Info
 Python3 version: ```Python 3.9.5``` or higher
