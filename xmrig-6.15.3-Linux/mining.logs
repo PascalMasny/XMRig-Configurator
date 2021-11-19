@@ -1,0 +1,37 @@
+ * ABOUT        XMRig/6.15.3 gcc/9.3.0
+ * LIBS         libuv/1.42.0 OpenSSL/1.1.1l hwloc/2.5.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    unavailable
+ * CPU          Intel(R) Core(TM) i7 CPU 930 @ 2.80GHz (1) 64-bit -AES
+                L2:1.0 MB L3:8.0 MB 4C/8T NUMA:1
+ * MEMORY       6.0/7.8 GB (77%)
+ * DONATE       1%
+ * ASSEMBLY     auto:none
+ * POOL #1      gulf.moneroocean.stream:10128 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * OPENCL       disabled (failed to load OpenCL runtime)
+ * CUDA         disabled (/home/passi/Schreibtisch/Monero-Miner/xmrig-6.15.3-Linux/libxmrig-cuda.so: cannot open shared object file: No such file or directory)
+[2021-11-19 19:33:43.253]  net      use pool gulf.moneroocean.stream:10128  195.201.124.214
+[2021-11-19 19:33:43.253]  net      new job from gulf.moneroocean.stream:10128 diff 128001 algo rx/0 height 2496876 (64 tx)
+[2021-11-19 19:33:43.253]  cpu      use argon2 implementation SSSE3
+[2021-11-19 19:33:44.453]  randomx  init dataset algo rx/0 (8 threads) seed d02e1b1704b67497...
+[2021-11-19 19:33:44.453]  randomx  allocated 2336 MB (2080+256) huge pages 0% 0/1168 +JIT (1 ms)
+[2021-11-19 19:33:51.940]  randomx  dataset ready (7487 ms)
+[2021-11-19 19:33:51.940]  cpu      use profile  *  (6 threads) scratchpad 2048 KB
+ * OPENCL       disabled (failed to load OpenCL runtime)
+ * CUDA         disabled (/home/passi/Schreibtisch/Monero-Miner/xmrig-6.15.3-Linux/libxmrig-cuda.so: cannot open shared object file: No such file or directory)
+[2021-11-19 19:33:51.946]  cpu      READY threads 6/6 (6) huge pages 0% 0/6 memory 12288 KB (5 ms)
+[2021-11-19 19:34:01.950]  miner    speed 10s/60s/15m n/a n/a n/a H/s max n/a H/s
+[2021-11-19 19:34:11.960]  miner    speed 10s/60s/15m 648.2 n/a n/a H/s max 657.4 H/s
+[2021-11-19 19:34:21.966]  miner    speed 10s/60s/15m 633.8 n/a n/a H/s max 657.4 H/s
+[2021-11-19 19:34:31.977]  miner    speed 10s/60s/15m 660.1 n/a n/a H/s max 660.1 H/s
+[2021-11-19 19:34:41.983]  miner    speed 10s/60s/15m 657.7 n/a n/a H/s max 662.0 H/s
+[2021-11-19 19:34:51.987]  miner    speed 10s/60s/15m 656.1 n/a n/a H/s max 662.0 H/s
+[2021-11-19 19:35:01.988]  miner    speed 10s/60s/15m 656.8 652.0 n/a H/s max 662.0 H/s
+[2021-11-19 19:35:11.997]  miner    speed 10s/60s/15m 613.4 646.4 n/a H/s max 662.0 H/s
+[2021-11-19 19:35:22.006]  miner    speed 10s/60s/15m 604.6 641.8 n/a H/s max 662.0 H/s
+[2021-11-19 19:35:32.012]  miner    speed 10s/60s/15m 614.3 634.0 n/a H/s max 662.0 H/s
+[2021-11-19 19:35:42.020]  miner    speed 10s/60s/15m 631.6 630.1 n/a H/s max 662.0 H/s
+[2021-11-19 19:35:52.030]  miner    speed 10s/60s/15m 606.0 621.6 n/a H/s max 662.0 H/s
+[2021-11-19 19:35:55.789]  signal   Ctrl+C received, exiting
+[2021-11-19 19:35:55.801]  cpu      stopped (12 ms)
